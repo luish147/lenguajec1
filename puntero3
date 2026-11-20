@@ -1,1 +1,11 @@
-
+#include <stdio.h>
+int main()
+{
+ int arreglo[]={25,14,16,89,7};
+ int *a=arreglo;
+for(int i=0;i<5;i++)
+{
+  printf("el elemento [%d] : %d\n",i,*(a+i));7
+}
+return 0;
+}
